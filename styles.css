@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.sidebar {
+    background-color: #343a40;
+    color: #fff;
+    height: 100vh;
+    padding: 0;
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    padding: 10px 20px;
+}
+
+.sidebar-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar-menu li a:hover {
+    background-color: #495057;
+    display: block;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.top-bar {
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.metric-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.chart-container {
+    width: 100%;
+    height: 400px;
+}
+
+.nested-feature-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.nested-feature-tree {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.nested-feature-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.nested-feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nested-feature-actions button {
+    margin-left: 5px;
+}
+
+.form-check {
+    margin-left: 10px;
+}
+
+.form-check .form-check-label {
+    display: inline-block;
+    padding-left: 0.25rem;
+}
+
+.form-check-label {
+    display: inline-block;
+}
+
+.form-check {
+    padding-left: 20px; /* Adjust the padding value as necessary */
+}
+
+.form-check .form-check-input {
+    margin-left: -20px; /* Adjust the negative margin to align checkbox with the label */
+}
+.dropdown-menu {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdown-item {
+  padding: 0.25rem 1rem;
+}
+
+.form-check {
+  margin-bottom: 0;
+}
+
+.form-check-label {
+  margin-left: 0.5rem;
+}
+
+.nested-feature {
+  margin-left: 1rem;
+}
